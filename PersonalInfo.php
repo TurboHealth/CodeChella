@@ -26,7 +26,7 @@
         $error=true;
     }else{
         updateauto($id,$income,$household,$status,$age);
-        header("Location: PersonalInfo.php");
+        header("Location: HealthInfo.php");
     }
 }
 ?>
