@@ -40,7 +40,7 @@
     if("select"==$_POST['employer']|| "select"==$_POST['smoke'] || ""==$_POST['visits']||"select"==$_POST['history']){
         $error=true;
     }else{
-        updatehealth($id,$employer,$smoke,$visits,$history);
+        //updatehealth($id,$employer,$smoke,$visits,$history);
         header("Location: HealthOptions.html");
     }
   }
@@ -107,7 +107,7 @@ background-color: #999999;
           <div class="wrap">
             <nav class="nav">
               <div class="ttcom-logo" style="float:left">
-              <div class="headstyle">TurboHealth</div>
+              <div class="headstyle" style="font-weight: bold" >TurboHealth</div>
               <div class="headexp" style="margin-left: 70px;">powered by</div>
                 <img style="margin-left: 70px;" src="https://images.turbotax.intuit.com/images/logo/ttcom-logo.png" alt="turbotax.com" />
                </div>
@@ -140,7 +140,7 @@ background-color: #999999;
                 <div class="content">
                 <?php
             if(isset($error) && $error==true){
-                echo "<h4>Please fill out all the fields.</h4><br>";
+                echo "<h4 style='color:red'>Please fill out all the fields.</h4><br>";
             }
         ?>
                   <table>
