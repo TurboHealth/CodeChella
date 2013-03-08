@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<head> 
+  <title>TurboHealth&reg; Find the Best Health Insurance for You</title>
+  <link rel="stylesheet" href="css/taxprep.css"/>
+  <link rel="stylesheet" href="css/styling.css" type="text/css"/>
+  <link rel="shortcut icon" href="img/favicon.ico"/>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+ <script type="text/javascript">
+ 	function selectPlat()
+ 	{
+ 		var gold = document.getElementById("gold-plan");	
+ 		gold.style.fontWeight = '300';
+ 		var silv = document.getElementById("silv-plan");	
+ 		silv.style.fontWeight = '300';
+ 		var bronz = document.getElementById("bronz-plan");	
+ 		bronz.style.fontWeight = '300';
+ 		
+ 		
+ 		var gold = document.getElementById("gold-plan");
+ 		gold.style.border = "0px solid white";
+ 		
+ 		var silv = document.getElementById("silv-plan");
+ 		silv.style.border = "0px solid white";
+ 		
+ 		var bronz = document.getElementById("bronz-plan");
+ 		bronz.style.border = "0px solid white";
+ 		
+ 		var plat = document.getElementById("plat-plan");	
+ 		plat.style.fontWeight = '700';
+ 		plat.style.borderBottom = "5px solid black";
+ 		plat.style.borderTop = "5px solid black";
+ 		plat.style.borderLeft = "5px solid black";
+ 		plat.style.borderRight = "5px solid black";
+ 		
+ 		
+ 		var govtCost = document.getElementById("govt-cost");
+ 		var govtSubs = document.getElementById("govt-subs");
+ 		var totalCost = document.getElementById("total-cost");
+ 		
+ 		govtCost.firstChild.data = "Yearly cost without government subsidy: $4,548";
+ 		govtSubs.firstChild.data = "Yearly Federal Government Subsidy: $411";
+ 		totalCost.firstChild.data = "Total cost of $4,137 / year ($345 / month)";
+ 		
+ 	}
+ 	
+ 	function selectGold()
+ 	{
+ 		var selected1 = document.getElementById("plat-plan");	
+ 		selected1.style.fontWeight = '300';
+ 		var selected2 = document.getElementById("silv-plan");	
+ 		selected2.style.fontWeight = '300';
+ 		var selected3 = document.getElementById("bronz-plan");	
+ 		selected3.style.fontWeight = '300';
+ 		
+ 		
+ 		var plat = document.getElementById("plat-plan");
+ 		plat.style.border = "0px solid white";
+ 		
+ 		var silv = document.getElementById("silv-plan");
+ 		silv.style.border = "0px solid white";
+ 		
+ 		var bronz = document.getElementById("bronz-plan");
+ 		bronz.style.border = "0px solid white";
+ 		
+ 		var gold = document.getElementById("gold-plan");	
+ 		
+ 		gold.style.fontWeight = '700';
+ 		gold.style.borderBottom = "5px solid black";
+ 		gold.style.borderTop = "5px solid black";
+ 		gold.style.borderLeft = "5px solid black";
+ 		gold.style.borderRight = "5px solid black";
+ 		
+ 		
+ 		var govtCost = document.getElementById("govt-cost");
+ 		var govtSubs = document.getElementById("govt-subs");
+ 		var totalCost = document.getElementById("total-cost");
+ 		
+ 		govtCost.firstChild.data = "Yearly cost without government subsidy: $4,548";
+ 		govtSubs.firstChild.data = "Yearly Federal Government Subsidy: $955";
+ 		totalCost.firstChild.data = "Total cost of $3,593 / year ($300 / month)";
+ 		
+ 	}
+ 	
+ 	function selectSilv()
+ 	{
+ 		var selected1 = document.getElementById("plat-plan");	
+ 		selected1.style.fontWeight = '300';
+ 		var selected2 = document.getElementById("gold-plan");	
+ 		selected2.style.fontWeight = '300';
+ 		var selected3 = document.getElementById("bronz-plan");	
+ 		selected3.style.fontWeight = '300';
+ 		
+ 		
+ 		var plat = document.getElementById("plat-plan");
+ 		plat.style.border = "0px solid white";
+ 		
+ 		var gold = document.getElementById("gold-plan");
+ 		gold.style.border = "0px solid white";
+ 		
+ 		var bronz = document.getElementById("bronz-plan");
+ 		bronz.style.border = "0px solid white";
+ 		
+ 		var silv = document.getElementById("silv-plan");	
+ 		silv.style.fontWeight = '700';
+ 		silv.style.borderBottom = "5px solid black";
+ 		silv.style.borderTop = "5px solid black";
+ 		silv.style.borderLeft = "5px solid black";
+ 		silv.style.borderRight = "5px solid black";
+ 		
+ 		var govtCost = document.getElementById("govt-cost");
+ 		var govtSubs = document.getElementById("govt-subs");
+ 		var totalCost = document.getElementById("total-cost");
+ 		
+ 		govtCost.firstChild.data = "Yearly cost without government subsidy: $4,548";
+ 		govtSubs.firstChild.data = "Yearly Federal Government Subsidy: $1,400";
+ 		totalCost.firstChild.data = "Total cost of $3,148 / year ($262 / month)";
+ 	}
+ 	
+ 	function selectBronz()
+ 	{
+ 		var selected1 = document.getElementById("plat-plan");	
+ 		selected1.style.fontWeight = '300';
+ 		var selected2 = document.getElementById("gold-plan");	
+ 		selected2.style.fontWeight = '300';
+ 		var selected3 = document.getElementById("silv-plan");	
+ 		selected3.style.fontWeight = '300';
+ 		
+ 		
+ 		var plat = document.getElementById("plat-plan");
+ 		plat.style.border = "0px solid white";
+ 		
+ 		var silv = document.getElementById("silv-plan");
+ 		silv.style.border = "0px solid white";
+ 		
+ 		var gold = document.getElementById("gold-plan");
+ 		gold.style.border = "0px solid white";
+ 		
+ 		
+ 		var bronz = document.getElementById("bronz-plan");	
+ 		bronz.style.fontWeight = '700';
+ 		bronz.style.borderBottom = "5px solid black";
+ 		bronz.style.borderTop = "5px solid black";
+ 		bronz.style.borderLeft = "5px solid black";
+ 		bronz.style.borderRight = "5px solid black";
+ 		
+ 		var govtCost = document.getElementById("govt-cost");
+ 		var govtSubs = document.getElementById("govt-subs");
+ 		var totalCost = document.getElementById("total-cost");
+ 		
+ 		govtCost.firstChild.data = "Yearly cost without government subsidy: $4,548";
+ 		govtSubs.firstChild.data = "Yearly Federal Government Subsidy: $2,460";
+ 		totalCost.firstChild.data = "Total cost of $2,100 / year ($175 / month)";
+ 	}
+ 	
+ </script>
+<style type="text/css">
+
+            #small{
+            font-size:10px;
+            }
+            #bold{
+                font-weight:bold;
+            }
+            #center{
+                margin-left:auto;
+                margin-right:auto;
+                border-spacing:0;
+            }
+            /*.leftbold{
+                border-bottom: 5px solid black;
+                border-top: 5px solid black;
+                border-left: 5px solid black;
+            }
+            .rightbold{
+                border-top: 5px solid black;
+                border-bottom: 5px solid black;
+                border-right: 5px solid black;
+            }
+            .middlebold{
+                border-bottom: 5px solid black;
+                border-top: 5px solid black;
+            }*/
+            td{
+                text-align:center;
+            }
+        	.headstyle
+        	{
+        		font-size: 30px;
+        		color: #FF0000;
+        	}
+        	
+        	.headexp
+        	{
+        		font-size: 18px;
+        		color: #FFFFFF;
+        	}
+        	.container{
+        		background-color: #FFFFFF;
+        		width:1050px;
+        		height: auto;
+        		padding: 30px;
+        		margin: 0 auto;
+        		
+        	}
+        	.bodycontainer
+        	{
+        		position: relative;
+        	}
+        	.heading
+        	{
+        		font-size: 31px;
+        		line-height: 33px;
+        	}
+        	.content
+        	{
+        		font-size: 21px;
+        		line-height: 27px;
+        		padding: 20px;
+        	}
+        	.buttonstyle{
+        		width: 45px;
+        		height:40px;
+        		background-color: #999999;
+        	}
+        	
+        	
+        	.btn-back{
+	background: #3A87AD; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU4YTNkZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIlIiBzdG9wLWNvbG9yPSIjNDY5OGQ5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMzYlIiBzdG9wLWNvbG9yPSIjM2U4YmQ1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNzElIiBzdG9wLWNvbG9yPSIjMzI3OGNmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzJjNmRjYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #58a3dd 0%, #4698d9 2%, #3e8bd5 36%, #3278cf 71%, #2c6dcc 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#58a3dd), color-stop(2%,#4698d9), color-stop(36%,#3e8bd5), color-stop(71%,#3278cf), color-stop(100%,#2c6dcc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #58a3dd 0%,#4698d9 2%,#3e8bd5 36%,#3278cf 71%,#2c6dcc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #58a3dd 0%,#4698d9 2%,#3e8bd5 36%,#3278cf 71%,#2c6dcc 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #58a3dd 0%,#4698d9 2%,#3e8bd5 36%,#3278cf 71%,#2c6dcc 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #58a3dd 0%,#4698d9 2%,#3e8bd5 36%,#3278cf 71%,#2c6dcc 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#58a3dd', endColorstr='#2c6dcc',GradientType=0 ); /* IE6-8 */
+	
+	border-top:1px solid #4e85c9;
+	border-left:1px solid #245cae;
+	border-bottom:1px solid #205199;
+	border-right:1px solid #387fc9;
+}
+        	table, tr, th, td {
+ 				
+ 				padding-bottom: 15px;
+ 				padding-top: 15px;
+ 				padding-left: 35px;
+ 				padding-right: 35px;
+			}
+			
+	.plan-subinfo{
+		display:none;
+	}
+	
+	.planinfo:hover .plan-subinfo {
+		display:block;
+	}
+			
+    </style>
+   </head>
+<body>
+	<div class="bodycontainer">
+<div class="nav-bar" style="height: 150px;">
+          <div class="wrap">
+            <nav class="nav">
+              <div class="ttcom-logo">
+              <div class="headstyle">TurboHealth</div>
+              <div class="headexp" style="margin-left: 70px;">powered by</div>
+                <img style="margin-left: 70px;" src="https://images.turbotax.intuit.com/images/logo/ttcom-logo.png" alt="turbotax.com" />
+               </div>
+               <div class="progress-copy" style="margin-top:55px; margin-right: 350px; float:right">
+                      <div  class="right-nav-item progressTab" style="border-left: none;">
+                        <span id="progressLabel" class="nav-item">Progress</span>
+                        <div id="progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="10">
+                            <div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+              <ul class="mainNav">
+              	<li class="help">
+                	<a class="category" href="PersonalInfo.htm" target="_self">Home</a>
+                </li>
+              <li class="help">
+                <a class="category" href="Login.htm" target="_self" data-link-id="123" >Logout</a>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="tt-container">
+      <section class="block-row underline">
+        <div class="container-fluid" id="continueReturn">
+          <div class="row-fluid ">
+            <div class="span11 offset1" id="InfoContainer">
+        <div class="container">
+        <div class="heading" style="margin-top: 50px;"> According to your data this is the best option ObamaCare will have for you starting October 2013.</div>
+        <br><br>
+        <div class="content">
+        <table class="tablecss" align="center"> 
+            <tr>
+                <th style="background: #C2C2C4;">Category</th>
+                <th style="background: #C2C2C4;">Percentage of Expenses<br> Paid by Health Plan</th>
+                <th style="background: #C2C2C4;">Percentage of Expenses <br>You Pay</th>
+            </tr>
+            <tr id="plat-plan" onclick="selectPlat()">          	
+                <td id="plat-left">Platinum&nbsp;<img id="planinfo" src="img/moreInfo_icn.png" title="For a platinum plan, an average individual would pay 10 percent out-of-pocket for their covered benefits and the insurer would pay 90 percent." 
+                	width="30px" height="30px">
+                	
+                	
+                </td>
+                <td id="plat-middle">90%</td>
+                <td id="plat-right">10%</td>
+            </tr>
+            <tr id="gold-plan" onclick="selectGold()">            	
+                <td id="gold-left" style="background: #F3F3F3;">Gold&nbsp;<img id="goldinfo" title="For a gold plan, an average individual would pay 20 percent out-of-pocket for their covered benefits and the insurer would pay 80 percent." src="img/moreInfo_icn.png" width="30px" height="30px"></td>
+                <td id="gold-middle" style="background: #F3F3F3;">80%</td> 
+                <td id="gold-right" style="background: #F3F3F3;">20%</td>
+            </tr>
+            <tr id="silv-plan" onclick="selectSilv()">          	
+                <td id="silv-left">Silver&nbsp;<img id="silvinfo" title="For a silver plan, an average individual would pay 30 percent out-of-pocket for their covered benefits and the insurer would pay 70 percent." src="img/moreInfo_icn.png" width="30px" height="30px"></td>
+                <td id="silv-middle">70%</td>
+                <td id="silv-right">30%</td>
+            </tr>
+            <!--<tr id="borderThick">
+                <td class=leftbold style="float:left">Bronze</td>
+                <td class=middlebold>60%</td>
+                <td class=rightbold>40%</td>
+            </tr>-->
+            <tr id="bronz-plan" onclick="selectBronz()">
+            	
+                <td id="bronz-left" style="background: #F3F3F3;" ><img id="img-bronz" src="img/check_mark_green.png" height="25px" width="25px">&nbsp;Bronze&nbsp;<img id="bronzinfo" title="For a bronze plan, an average individual would pay 40 percent out-of-pocket for their covered benefits and the insurer would pay 60 percent." 
+                	src="img/moreInfo_icn.png" width="30px" height="30px"></td>
+                <td id="bronz-middle" style="background: #F3F3F3;" >60%</td>
+                <td id="bronz-right" style="background: #F3F3F3;">40%</td>
+            </tr>
+        </table>
+        <br>
+        
+        <details>
+        <summary>Click here to view 10 core benefits offered by this plan:</summary>
+        <div style="font-size: 19px;">
+        		<div>&nbsp;&nbsp;&nbsp;<img src="img/bullet.png"> Ambulatory patient services</div>
+				<div>&nbsp;&nbsp;&nbsp;<img src="img/bullet.png"> Emergency services</div>
+				<div>&nbsp;&nbsp;&nbsp;<img src="img/bullet.png"> Hospitalization</div>
+				<div>&nbsp;&nbsp;&nbsp;<img src="img/bullet.png"> Maternity and newborn care</div>
+				<div>&nbsp;&nbsp;&nbsp;<img src="img/bullet.png"> Mental health and substance use disorder services, including behavioral health treatment</div>
+				<div>&nbsp;&nbsp;&nbsp;<img src="img/bullet.png"> Prescription drugs</div>
+				<div>&nbsp;&nbsp;&nbsp;<img src="img/bullet.png"> Rehabilitative and habilitative services and devices</div>
+				<div>&nbsp;&nbsp;&nbsp;<img src="img/bullet.png"> Laboratory services</div>
+				<div>&nbsp;&nbsp;&nbsp;<img src="img/bullet.png"> Preventive and wellness services and chronic disease management</div>
+				<div>&nbsp;&nbsp;&nbsp;<img src="img/bullet.png"> Pediatric services, including dental and vision care</div>
+				</div>
+        	</details>
+        <br>
+        <div>What this means for you...<br>
+        <label id="govt-cost" style="font-size: 21px; line-height: 27px;">Yearly cost without government subsidy: $4,548</label>
+        <label id="govt-subs" style="font-size: 21px; line-height: 27px;">Yearly Federal Government Subsidy: $2,460</label>
+        <label id="total-cost" style="font-size: 21px; line-height: 27px; font-weight: bold;">Total cost of $2,100 / year ($175 / month)</label>
+        </div>
+        <br><br>
+        <div>
+<div style="float: left; width: 30%; margin-left: 5%;"><b>Download app for ObamaCare reminders!</b></div>
+                 <div style= "float:right; margin-right: 25%;"><b>Message a friend!</b></div><br><br>
+                <img src="img/app_icn.png" align="center" style="float: left; margin-left: 8%; margin-top:40px">            
+                    <img src="img/facebook-new-message.jpg.jpeg" style="float: right; width: 45%; margin-right:100px">
+    
+        	<br>
+        	<br>
+        	<br>
+        	<br>
+        	<br>
+        	<br>
+        	<br>
+        	<br>
+            </div>
+           </div>
+        </div>
+    </div>
+</div>
+</div>
+      </section>  
+            <footer class="condensed">
+            <div class="row-fluid">
+            <div class="span10 offset1">
+        <div id="footersub" class="condensed">
+  <div class="leftWrapShort">
+    <img src="img/intuit-logo.jpg"> <br/>
+    <a href='http://turbotax.intuit.com/corp/softwarelicense.jsp' data-link-id="89">Software License Agreements</a> | 
+    <a href='http://security.intuit.com/privacy/' class="newWindow" data-link-id="90">Privacy Statement</a> 
+    <br />  
+    &copy;2013 Intuit Inc.  All rights reserved.</div>
+<!-- #footersub2 -->
+              </div>
+            </div>  
+          </div>
+        </footer>  
+            <!--<div style="font-size: larger">Add to Facebook Events and let others know that there is only 300 days left to sign up &nbsp; &nbsp; &nbsp;<a class="button" href="#"><span class="btn btn-default btn-wide"> Share On Facebook </span></a> </div>  -->     
+           
+             </div>
+</div>
+</body>
+</html>
