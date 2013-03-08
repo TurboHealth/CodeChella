@@ -2102,6 +2102,8 @@ footer  .col {
 	margin: 0px 0 0px 0px;
 }
 
+.ui-widget-header {
+    background:#b5e47a;}
 
 #footersub  a{
 	color:#41a0df;

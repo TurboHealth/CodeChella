@@ -37,6 +37,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>TurboHealth&reg; Find the best insurance for you</title>
+        <link rel="stylesheet" href="css/taxprep.css"/>
         <link rel="stylesheet" type="text/css" href="css/styling.css">
         <link rel="shortcut icon" href="img/favicon.ico">
         <style type="text/css">
@@ -97,6 +98,16 @@ background-color: #999999;
               <div class="headexp" style="margin-left: 70px;">powered by</div>
                 <img style="margin-left: 70px;" src="https://images.turbotax.intuit.com/images/logo/ttcom-logo.png" alt="turbotax.com" />
                </div>
+               <div class="progress-copy" style="margin-top:55px; margin-right: 350px; float:right">
+                    <div  class="right-nav-item progressTab" style="border-left: none;">
+                        <span id="progressLabel" class="nav-item">Progress</span>
+                        <div id="progressbar" class="ui-progressbar ui-widget ui-widget-content ui-corner-all" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="10">
+                            <div class="ui-progressbar-value ui-widget-header ui-corner-left" style="width: 33%;"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            
               <ul class="mainNav">
               <li class="help">             
         <a class="category" href="PersonalInfo.php" target="_self">Home</a>
@@ -105,6 +116,7 @@ background-color: #999999;
                 <a class="category" href="index.php" target="_self" data-link-id="123" >Logout</a></li>
               </ul>
             </nav>
+                   
           </div>
         </div>
       </header>
